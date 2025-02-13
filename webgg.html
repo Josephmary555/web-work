@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - My CV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    h1{color: blue;text-align: left;}
+    p{font-style: italic; color: brown;}
+    body{background-color: bisque;
+        text-align: left;
+    }
+    
+    img{
+        display: block;
+        margin: 20px auto;
+        width: 150px;
+        height:150px;
+        border-radius:50%;
+        transition:cubic-bezier(0.6, 0.04, 0.98, 0.335);
+        
+    }
+    video{
+        display: block;
+        margin: 50px auto;
+        width: 400px;
+        max-width: 800px;
+        height: auto;
+        border-radius:60px;
+    }
+    .gallary{
+        transition-delay: unset;
+    }
+
+   
+</style>
+<body>
+    <header>
+        <h1>My Gallery</h1>
+        <nav>
+            <ul>
+                
+                <li><a href="webhh.html">Home</a></li>
+                <li><a href="webpp.html">Profile</a></li>
+                <li><a href="webee.html">Education</a></li>
+                <li><a href="webss.html">Skills</a></li>
+                <li><a href="webgg.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="gallery">
+        <h1>Image Gallery</h1>
+        <div class="image-container">
+            <img src="WhatsApp Image 2025-02-09 at 10.47.19_e0245d52.jpg" alt="Sample Image 1" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-09 at 10.47.18_79ea8808.jpg" alt="Sample Image 2" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-08 at 16.20.28_d43db0f3.jpg" alt="Sample Image 3" class="gallery-item">
+            <img src="WhatsApp Image 2025-02-08 at 09.11.43_dd616fd0.jpg" alt="Sample Image 3" class="gallery-item">
+        </div>
+        
+        <h1>Video Gallery</h1>
+        <div class="video-container">
+            <video controls class="gallery-item"; float:left;>
+                <source src="WhatsApp Video 2025-01-26 at 20.29.29_efc98c9e - Copy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            
+            
+            <video controls class="gallery-item"; float:right;>
+                <source src="WhatsApp Video 2025-01-26 at 12.23.33_d1b901bb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 My CV. All rights reserved.</p>
+    </footer>
+</body>
+</html>
